@@ -1,8 +1,8 @@
 
 
 /*Created by Robert Pavlovskis on 11/07/2015
-This is example shows how you can unwrap and navigate 360° video and image.
-Drag & drop videos or  pictures  onto the window to unwrap 360° media. 
+This is example shows how you can unwrap and navigate 360Â° video and image.
+Drag & drop videos or  pictures  onto the window to unwrap 360Â° media. 
 Drag the mouse across the screen to look around.*/
 
 
@@ -17,7 +17,7 @@ ofApp::~ofApp() {
 void ofApp::setup(){
 
 	//Load Demo Texture
-	path = "cube.avi";
+	path = "ocean.bmp";
 	vid.loadMovie(path);
 	vid.play();
 
@@ -45,7 +45,7 @@ void ofApp::draw(){
 
 	//Place camera inside the sphere
 	cam.begin();
-	//Map 360° texture to sphere
+	//Map 360Â° texture to sphere
 	unwrap();
 	cam.end();
 	
@@ -54,7 +54,7 @@ void ofApp::draw(){
 	ofRect(10, 10, 357, 73);
 	ofSetColor(255);
 	ofDrawBitmapString("Drag & drop videos and  pictures  onto the", 20, 30);
-	ofDrawBitmapString("window to unwrap 360° media. Drag the mouse", 20, 50);
+	ofDrawBitmapString("window to unwrap 360Â° media. Drag the mouse", 20, 50);
 	ofDrawBitmapString("across the screen to look around.", 20, 70);
 	ofDrawBitmapString(path, 20, ofGetHeight()*0.97);
 }
