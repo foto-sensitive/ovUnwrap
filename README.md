@@ -1,6 +1,6 @@
 #ovUnwrap
 
-The challenge of showing 360° video is its warped perspective. The footage encompasses everything around it, this app offers a way to unwrap and exhibit these panoramic shots. I developed several prototypes in openFrameworks to playback these videos and allow the user to navigate across them until ultimately deciding to unwrap them spherically around a gluSphere object and by viewing it from inside.
+The challenge of showing 360° video is its warped perspective which encompasses everything around it. This app offers a way to unwrap and exhibit these panoramic shots in a regular first person view. The sketch is part of a series of 360° utility examples I made in openFrameworks, they are distinguished by the 'ov' (omni-vid) prefix.
 
 ## Usage
 Drag & drop videos and  pictures  onto the
@@ -10,6 +10,7 @@ across the screen to look around.
 
 ## Dependencies:
 ### Library itself
+openFrameworks 0.9.0
 None (C++11)
 
 ### Examples
