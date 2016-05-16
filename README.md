@@ -10,9 +10,6 @@ across the screen to look around.
 
 ## Dependencies:
 ### Library itself
-
-openFrameworks 0.9.0
-
 None (C++11)
 
 ### Examples
