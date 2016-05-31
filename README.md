@@ -9,8 +9,7 @@ across the screen to look around.
 
 
 ## Dependencies:
-### Library itself
-None (C++11)
+This project was designed to run with OpenFrameworks 0.9.0
 
 ### Examples
 openFrameworks 0.9.0
